@@ -15,20 +15,22 @@ h1 {
   margin-bottom:15px
 }
 
-#section {
-  box-sizing: border-box;
-  background-color: mediumpurple;
+.section {
+  background-color: lightpink;
   height: 150px;
   width: 95%;
+  margin:10px;
   border: 1px solid black;
   }
+#t1 {background-color:mintcream;}
+#t2 {background-color:lightcoral;}
+#t3 {background-color:lightskyblue;}
 
 h2 {
   border:1px solid black;
   font-family:"Lucida", cursive;
   text-size: 200%;
   color: darkolivegreen;
-  background-color: mintcream;
   float: right;
   position: relative;
   top: 0px;
@@ -36,8 +38,7 @@ h2 {
 }
 p {
   font-family: Helvetica;
-  background-color: medium purple;
-  color: white;
+  color: black;
   height: 150px;
   width: 90%;
   clear: right;
@@ -67,13 +68,13 @@ p {
     width: 25%;
   }
   .col-lg-4 {
-    width: 33.33%;
+    width: 32.33%;
   }
   .col-lg-5 {
     width: 41.66%;
   }
   .col-lg-6 {
-    width: 50%;
+    width: 48%;
   }
   .col-lg-7 {
     width: 58.33%;
@@ -116,7 +117,7 @@ p {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 49%;
   }
   .col-md-7 {
     width: 58.33%;
